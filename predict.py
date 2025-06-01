@@ -1,9 +1,10 @@
 from ultralytics import YOLO
-
+DATA_YAML_PATH = "/tmp/pycharm_project_665/data.yaml"
+SAVE_RESULTS_PATH = "/tmp/pycharm_project_665"
 model = YOLO("model.pt")
 
 metrics = model.val(
-    data="/tmp/pycharm_project_665/data.yaml",
-    project="/tmp/pycharm_project_665",  # <- saves under this folder
-    name="val_results"                   # <- folder will be /tmp/pycharm_project_665/val_results/
+    data= DATA_YAML_PATH,
+    project=SAVE_RESULTS_PATH,  
+    name="val_results"                   
 )
