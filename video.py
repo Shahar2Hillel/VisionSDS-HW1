@@ -1,7 +1,7 @@
 import sys
 import cv2
 from ultralytics import YOLO
-model = YOLO("best.pt")
+model = YOLO("model.pt")
 video_path = "/datashare/HW1/ood_video_data/surg_1.mp4"
 output_path = "video_output.avi"
 # --- Open video ---
