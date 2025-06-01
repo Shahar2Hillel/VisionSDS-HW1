@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("best.pt")
+model = YOLO("model.pt")
 
 metrics = model.val(
     data="/tmp/pycharm_project_665/data.yaml",
