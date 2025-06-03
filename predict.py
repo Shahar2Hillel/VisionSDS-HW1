@@ -1,7 +1,7 @@
 from ultralytics import YOLO
-DATA_YAML_PATH = "/tmp/pycharm_project_665/data.yaml"
-SAVE_RESULTS_PATH = "/tmp/pycharm_project_665"
-model = YOLO("model.pt")
+DATA_YAML_PATH = "data.yaml"
+SAVE_RESULTS_PATH = ""
+model = YOLO("model.pt").to("cuda")
 
 metrics = model.val(
     data= DATA_YAML_PATH,
