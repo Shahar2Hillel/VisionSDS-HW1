@@ -24,6 +24,11 @@ model = YOLO("model.pt") # 🔧 Update this path
 ``` 
 ---
 You can download the trained model weights from the link below (also included in this repository):
-🔗 [Download best.pt from Google Drive](https://drive.google.com/file/d/1SCTXQkINXoXBkb2sX41pOyea4_-IrTP4/view?usp=drive_link)
+🔗 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1ac2NTu83rvMahezbDF0n47aiCpFbXPuq?usp=sharing)
+
+You can view the output video from the link here:
+🔗 [Video Output from Google Drive](https://drive.google.com/file/d/1XoHqAdwqKghfIG6xVhkRrhbZWhkb1dNo/view?usp=sharing)
+
+
 
 <img src="https://github.com/user-attachments/assets/6c289d9c-c9ad-499f-89fd-512e0c461cbf" alt="Prediction Example" height="250">
