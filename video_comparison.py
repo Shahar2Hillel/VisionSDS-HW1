@@ -5,9 +5,9 @@ from ultralytics import YOLO
 
 # === Load Models ===
 models = {
-    "Baseline": YOLO("baseline.pt").to("cuda"),
-    "Improved 1": YOLO("improved_1.pt").to("cuda"),
-    "Improved 2": YOLO("improved_2.pt").to("cuda")
+    "Fine Tuned": YOLO("fine_tuned_best.pt").to("cuda"),
+    "ID Psudo": YOLO("id_psudo_best.pt").to("cuda"),
+    "OOD Psudo": YOLO("ood_psudo_best.pt").to("cuda")
 }
 
 video_path = "/datashare/HW1/ood_video_data/surg_1.mp4"
