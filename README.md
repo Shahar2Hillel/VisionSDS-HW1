@@ -1,9 +1,17 @@
 # VisionSDS-HW1
-## Instructions
-Some paths in the scripts are **specific to the original development machine** and must be updated before running the code on your own system.
+## Models
+You can download the trained model weights from the link below (also included in this repository):
+🔗 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1ac2NTu83rvMahezbDF0n47aiCpFbXPuq?usp=sharing)
 
-Please **review and modify the following paths** in each script before use.
+## Video Results
+You can view the output video from the link here:
+🔗 [Video Output from Google Drive](https://drive.google.com/file/d/1XoHqAdwqKghfIG6xVhkRrhbZWhkb1dNo/view?usp=sharing)
 
+## Installing Instructions
+1. Install the packages in requirments.txt
+2. Download 'best.pt' from [Models Folder](https://drive.google.com/drive/folders/1ac2NTu83rvMahezbDF0n47aiCpFbXPuq?usp=sharing)
+3. Locate the model in the same folder with predict.py and video.py.
+4. Some paths in the scripts are **specific to the original development machine**, Please **review and modify the following paths** in each script before use:
 ---
 
 ###  `video.py`
@@ -23,12 +31,7 @@ SAVE_RESULTS_PATH = "/tmp/pycharm_project_665" # 🔧 Update this path
 model = YOLO("model.pt") # 🔧 Update this path
 ``` 
 ---
-You can download the trained model weights from the link below (also included in this repository):
-🔗 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1ac2NTu83rvMahezbDF0n47aiCpFbXPuq?usp=sharing)
-
-You can view the output video from the link here:
-🔗 [Video Output from Google Drive](https://drive.google.com/file/d/1XoHqAdwqKghfIG6xVhkRrhbZWhkb1dNo/view?usp=sharing)
 
 
-
+Video Output Example:
 <img src="https://github.com/user-attachments/assets/6c289d9c-c9ad-499f-89fd-512e0c461cbf" alt="Prediction Example" height="250">
