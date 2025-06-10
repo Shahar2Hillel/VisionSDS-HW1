@@ -34,4 +34,5 @@ model = YOLO("model.pt") # 🔧 Update this path
 
 
 Video Output Example:
+
 <img src="https://github.com/user-attachments/assets/6c289d9c-c9ad-499f-89fd-512e0c461cbf" alt="Prediction Example" height="250">
