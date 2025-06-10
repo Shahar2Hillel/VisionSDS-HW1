@@ -1,4 +1,20 @@
 # VisionSDS-HW1
+## Project Structure
+├── requirments.txt # all requirments needed to run
+├── data.yaml - configure to run on train or validation datasets
+├── video.py - runs predictions on a video using OpenCV
+├── predict.py - runs predictions on an image
+├── Final Report.pdf
+
+extras/ # additional code we generated for project
+├── create_psudo_labels.py
+├── eda (1).ipynb - our code for inital eda (part 1 in report)
+├── train_on_psudo_labels.py
+├── video_comparison.py - like video.py but can compare models results
+├── yolo_fine_tuning.ipynb 
+
+val_results/ # Output of predict.py example, results on validation set
+
 ## Models
 You can download the trained model weights from the link below (also included in this repository):
 🔗 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1ac2NTu83rvMahezbDF0n47aiCpFbXPuq?usp=sharing)
